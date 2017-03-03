@@ -1,0 +1,13 @@
+*{
+  font-family:fantasy;
+}
+h1 {
+  color: blue;
+}
+  #intro {
+    color: purple;
+    background-color: lightgrey;
+  }
+  .hello {
+      color: green;
+}
