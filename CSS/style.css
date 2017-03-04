@@ -7,6 +7,10 @@ body {
 h1 {
   color: blue;
 }
+h3 {
+  color: green;
+  background-color: yellow;
+}
   #intro {
     color: purple;
     background-color: lightgrey;
