@@ -11,6 +11,22 @@ h3 {
   color: green;
   background-color: yellow;
 }
+.text-input {
+  width: 100%;
+  padding: 3px 5px 3px 5px;
+  margin: 3px;
+}
+.round {
+  -webkit-border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgreen;
+}
+.contactform {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
   #intro {
     color: purple;
     background-color: lightgrey;
