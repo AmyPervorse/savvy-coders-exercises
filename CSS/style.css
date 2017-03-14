@@ -7,9 +7,16 @@ body {
 h1 {
   color: blue;
 }
-h3 {
-  color: green;
-  background-color: yellow;
+.navbar {
+  display: block;
+    display: inline;
+    width: 100px;
+    margin: 5px;
+    float: right;
+    background-color: lightgreen;
+}
+li a:hover {
+    background-color: #111;
 }
 .text-input {
   width: 100%;
