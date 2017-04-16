@@ -39,7 +39,7 @@ outputHtml += "</ul>";
 
 outputTarget.innerHTML += outputHtml;
 
-//Exercise 5 STILL NOT WORKING!!
+//Exercise 5!!
 var n = 15;
 var outputTarget = document.querySelector("#exercise-5");
 var outputHtml = "<ul>";

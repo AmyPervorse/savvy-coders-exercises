@@ -41,3 +41,9 @@ li a:hover {
   .hello {
       color: green;
 }
+#header {
+  text-align: center;
+}
+#catPhoto {
+  max-width: 20%;
+}

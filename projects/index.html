@@ -6,30 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="../css/style.css"/>
-  <style>
-  div {
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-}
-</style>
 </head>
 <body>
   <ul>
-    <li class="navbar"><a href="../media/index.html">Media Index</a></li>
-    <li class="navbar"><a href="../blog/index.html">Blog Projects</a></li>
     <li class="navbar"><a href="../contact/index.html">Contact Me</a></li>
+    <li class="navbar"><a href="../rps/index.html">Games</a></li>
+    <li class="navbar"><a href="../blog/index.html">Blog</a></li>
     <li class="navbar"><a href="../index.html">Homepage</a></li>
   </ul>
-  <div id="greeting" class="section">
-  <h1>Hello!</h1>
-  <p>This content is all related!</p>
-  <p>Nice that we can group it using a "div" tag!</p>
+  <div id = "exercise-1">
+<p>Learning about while loops!</p>
 </div>
-  <p>Sometimes, <span class="highlight">all we really want</span> is
-  to be able to refer to certain sections of our page, but we want to completely
-  <span class="highlight">control their styling</span>, and not get the
-  "b" or "i" tags involved</p>
+<div id="exercise-5">
+<p>This is my cool count down</p>
+</div>
+<script type="text/javascript" src="../js/main.js"></script>
+<script>
+var myString = 'String';
+var myNum = 23;
+var myBoo = true;
+
+var myArray = [myString, myNum, 'Another String', myBoo, false];
+console.log(myArray[1] + " " + myArray[3]);
+
+var myObject = { myString: 'String', myNum: 23, myBoo: true, fruit: ["bananas","apples","pears"]};
+console.log(myObject.fruit);
+</script>
+<script type="text/javascript" src="../js/while.js"></script>
 </body>
 </html>
